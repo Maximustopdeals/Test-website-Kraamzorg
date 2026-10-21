@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   Aura Boutique Kraamzorg — Traditioneel & Zorgzaam
+   Saliegroen + warm havermout
+───────────────────────────────────────────────────────────── */
+
+@theme {
+  /* Surfaces — warm oatmeal / havermout */
+  --color-alabaster: #F7F3EC;
+  --color-cream: #F0EBE2;
+  --color-oatmeal: #E8E0D4;
+  --color-oatmeal-deep: #D9CFC0;
+  --color-mist: #CFC5B5;
+
+  /* Ink — soft warm charcoal */
+  --color-charcoal: #2C2A26;
+  --color-ink: #3F3C37;
+  --color-muted: #6E6A63;
+  --color-subtle: #9A948C;
+
+  /* Primary — saliegroen (sage) */
+  --color-sage: #7A8B6E;
+  --color-sage-soft: #A3B096;
+  --color-sage-deep: #5C6B52;
+  --color-forest: #4A5743;
+
+  /* Soft companion — warm oat accent (not beige-sand) */
+  --color-oat: #C4B8A5;
+  --color-oat-soft: #DDD5C8;
+
+  --font-serif: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-alabaster);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.75;
+  letter-spacing: -0.011em;
+}
+
+::selection {
+  background-color: var(--color-sage-soft);
+  color: var(--color-charcoal);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 1.5px solid var(--color-sage);
+  outline-offset: 3px;
+}
