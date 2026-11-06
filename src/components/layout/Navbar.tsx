@@ -11,7 +11,7 @@ const links = [
   { href: "/kraamzorg", label: "Kraamzorg" },
   { href: "/over-mij", label: "Over mij" },
   { href: "/reviews", label: "Ervaringen" },
-  { href: "/contact", label: "Private intake" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
