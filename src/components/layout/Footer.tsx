@@ -11,7 +11,7 @@ export default function Footer() {
               {siteConfig.shortName}
             </span>
             <p className="text-sm text-muted max-w-sm leading-relaxed font-light">
-              Toegewijd aan een serene, veilige en ongeëvenaarde kraamtijd —
+              Toegewijd aan een serene, veilige en ongeëvenaarde kraamtijd
               met absolute discretie en toewijding.
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Footer() {
                   href="/contact"
                   className="hover:text-charcoal transition-colors"
                 >
-                  Private intake
+                  Contact
                 </Link>
               </li>
             </ul>
